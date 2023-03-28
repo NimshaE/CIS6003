@@ -1,0 +1,44 @@
+.login-container {
+    background-image: url("../Images/Login.png");
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    font-family: Lato;
+}
+.middle-div { 
+    grid-area: 1 / 2 / 2 / 3;
+} 
+.card {
+    background-color: aqua;
+    background-image: url("../Images/Container.png");
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+}
+.icn-login{
+    width: 80px;
+    height: 80px;
+}
+.header {
+    color: #FEC600;
+    font-weight: 600;
+    font-size: 20px;
+}
+.text-msg {
+    color: #828282;
+    font-size: 13px;
+}
+.primary-btn {
+    background-color: #FEC600;
+    color: white;
+    border-radius: 50px;
+}
+.primary-btn:hover {
+    background-color: #FEC600;
+    color: white;
+    Offset: 0px, 0px#FFFFFF;
+}
+
+    
